@@ -44,13 +44,13 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 define( 'YOURLS_SITE', 'http://mak.run' );
 
 /** Server timezone GMT offset */
-define( 'YOURLS_HOURS_OFFSET', 0 ); 
+define( 'YOURLS_HOURS_OFFSET', 8 ); 
 
 /** YOURLS language
  ** Change this setting to use a translation file for your language, instead of the default English.
  ** That translation file (a .mo file) must be installed in the user/language directory.
  ** See http://yourls.org/translations for more information */
-define( 'YOURLS_LANG', '' ); 
+define( 'YOURLS_LANG', 'zh_TW' ); 
 
 /** Allow multiple short URLs for a same long URL
  ** Set to true to have only one pair of shortURL/longURL (default YOURLS behavior)
